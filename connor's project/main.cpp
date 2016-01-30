@@ -7,9 +7,28 @@
 //
 
 #include <iostream>
+using namespace::std;
+#include "CITY.h"
+
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    string n;
+    int p;
+    
+    city chicago;
+    
+    cout << "What do you want your city to be called?" << endl;
+    cin >> n;
+    
+    chicago.setname(n);
+    
+    
+    
+    
+    
+    
+    
     return 0;
 }
